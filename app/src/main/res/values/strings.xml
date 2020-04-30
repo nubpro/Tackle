@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tackle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_tickets">Tickets</string>
+    <string name="nav_agents">Agents</string>
+    <string name="nav_account">Account</string>
+    <string name="logout_button">Sign Out</string>
+    <string name="ticket_category">Category</string>
+    <string name="ticket_subject">Subject</string>
+    <string name="ticket_description">Description</string>
+    <string name="create_ticket_button">Create Ticket</string>
+    <string name="attachment">Add Attachment</string>
+    <string name="app_title">Tackle.</string>
+    <string name="app_slogan">A Ticket Management System</string>
+    <string name="pending_button">Mark as Pending</string>
+    <string name="solved_button">Mark as Solved</string>
+    <string name="closed_button">Mark as Closed</string>
+
+</resources>

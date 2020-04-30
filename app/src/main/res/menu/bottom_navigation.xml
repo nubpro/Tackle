@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+    <!--android:icon="@drawable/ic_dashboard_black_24dp"-->
+    <!--android:title="@string/nav_dashboard" />-->
+    <item
+        android:id="@+id/ticketsFragment"
+        android:icon="@drawable/ticket"
+        android:title="@string/nav_tickets" />
+    <!--<item-->
+    <!--android:icon="@drawable/ic_people_black_24dp"-->
+    <!--android:title="@string/nav_agents" />-->
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/nav_account" />
+</menu>

@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <item name="colorError">#F44336</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+
+        <!--<item name="bottomNavigationStyle">@style/AppBottomNavigation</item>-->
+        <item name="textInputStyle">@style/AppEditText</item>
+    </style>
+
+
+    <style name="AppBottomNavigation" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/primaryDarkColor</item>
+        <item name="itemTextColor">@color/primaryDarkColor</item>
+    </style>
+
+    <style name="AppEditText" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox"></style>
+</resources>

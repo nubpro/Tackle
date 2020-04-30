@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/materialCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="13dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="13dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingTop="18dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="18dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/avatar_cardView"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="22.5dp">
+
+            <ImageView
+                android:id="@+id/ticket_creator_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E0E0E0"
+                android:contentDescription="avatar"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_toEndOf="@id/avatar_cardView"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ticket_creator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Loading..."
+                tools:text="Display name" />
+
+            <TextView
+                android:id="@+id/ticket_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textStyle="italic"
+                tools:text="Category" />
+
+            <TextView
+                android:id="@+id/ticket_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2E2D2D"
+                android:textSize="14sp"
+                tools:text="Subject" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ticket_createdOn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                tools:text="Timestamp" />
+
+            <TextView
+                android:id="@+id/ticket_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="Status" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
